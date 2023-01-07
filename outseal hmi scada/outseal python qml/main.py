@@ -128,10 +128,9 @@ class table(QObject):
     
     @pyqtSlot(int)
     def slider(self, message):
-        #print(message)
         global slider
         slider = message
-    
+        
     @pyqtSlot(result=str)
     def get_holding_register(self):  return holding_register
     
