@@ -91,8 +91,7 @@ def modbus_data_process(num):
             if (request_coil.bits[8] == 0):
                 indicator1_status = "off"
             else:
-                indicator1_status = "on"
-                
+                indicator1_status = "on" 
         except:
             pass
 

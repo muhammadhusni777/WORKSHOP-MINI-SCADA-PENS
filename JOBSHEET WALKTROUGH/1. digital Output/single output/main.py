@@ -17,7 +17,9 @@ from pymodbus.register_read_message import ReadInputRegistersResponse
 from pymodbus.transaction import ModbusRtuFramer
 import serial
 import time
-###############DECLARE VARIABLES#############
+
+
+#---------------DEKLARASI VARIABEL----------------------------#
 button1_status = 0
 
 
@@ -71,7 +73,9 @@ class table(QObject):
         self.engine.rootContext().setContextProperty("backend", self)    
         self.engine.load(QUrl("main.qml"))
         sys.exit(self.app.exec_())
-        
+    
+    
+    #PROGRAM UNTUK MENERIMA DATA DARI QML
     @pyqtSlot(int)
     def button1(self, message):
         global button1_status
@@ -79,6 +83,7 @@ class table(QObject):
         button1_status = message
 #----------------------------------------------------------------#
 
+#------MEMPROSES DATA MODBUS ------------------------------------#
 def modbus_data_process(num):
     while True:
         if (button1_status == 1):
@@ -86,6 +91,11 @@ def modbus_data_process(num):
         else:
             client.write_coil(128, False, unit=int(slave_id))
 
+
+        '''
+        note : jika button bernilai 1 maka python mengirim nilai true ke alamat modbus 128 alias
+        B1 untuk menyalakan lampu, begitupun sebaliknya
+        '''
 
 
 ########## memanggil class table di mainloop######################

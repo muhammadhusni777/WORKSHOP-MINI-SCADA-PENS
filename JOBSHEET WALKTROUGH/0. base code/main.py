@@ -1,6 +1,6 @@
 ######  PROGRAM MEMANGGIL WINDOWS PYQT5 ##########################
 
-####### memanggil library PyQt5 untuk Graphical User Interface ##################################
+####### memanggil library PyQt5 untuk Graphical User Interface ###
 #----------------------------------------------------------------#
 from PyQt5.QtCore import * 
 from PyQt5.QtGui import * 
@@ -10,6 +10,8 @@ from PyQt5.QtQuick import *
 import sys
 import threading
 #----------------------------------------------------------------#
+
+#########memanggil Library modbus################################
 import pymodbus
 from pymodbus.pdu import ModbusRequest
 from pymodbus.client.sync import ModbusSerialClient as ModbusClient
@@ -17,6 +19,9 @@ from pymodbus.register_read_message import ReadInputRegistersResponse
 from pymodbus.transaction import ModbusRtuFramer
 import serial
 import time
+#---------------DEKLARASI VARIABEL----------------------------#
+
+
 
 #---------------SCAN AVAILABLE MODBUS PORT -------------------#
 
@@ -66,13 +71,15 @@ class table(QObject):
         sys.exit(self.app.exec_())
 #----------------------------------------------------------------#
 
+
+
 def modbus_data_process(num):
     while True:
         pass
 
 
 
-########## memanggil class table di mainloop######################
+########## memanggil class table di mainloop ######################
 #----------------------------------------------------------------#    
 if __name__ == "__main__":
     
