@@ -167,8 +167,6 @@ def modbus_data_process(num):
         
         
         try:
-            #
-            holding_register = str(request.registers[0])
             analog = request.registers[1]
             client.write_register(0, slider*10 ,unit=int(slave_id))
             print(request.registers)
