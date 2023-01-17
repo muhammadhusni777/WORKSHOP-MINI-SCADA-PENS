@@ -147,6 +147,7 @@ while True:
         
         h, w, c = overlayList[totalFingers - 1].shape
        
-
+    cv2.putText(img, 'OPENCV OUTSEAL PLC', (400, 70), cv2.FONT_HERSHEY_PLAIN,
+                 3, (255, 0, 0), 3)
     cv2.imshow("Img", img)
     cv2.waitKey(1)
