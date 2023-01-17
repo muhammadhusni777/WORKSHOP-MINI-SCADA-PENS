@@ -95,7 +95,7 @@ while True:
                 fingers.append(0)
 
         totalFingers = fingers.count(1)
-        print(totalFingers)
+        #print(totalFingers)
         
         
         request = client.read_holding_registers(address=0,count=0x7,unit=int(slave_id))
