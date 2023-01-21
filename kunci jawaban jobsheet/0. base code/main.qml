@@ -21,6 +21,19 @@ Window {
 	
 	
 	
+	
+	Timer{
+		id:tmgauge
+		interval: 200
+		repeat: true
+		running: true
+		onTriggered: {
+		
+		}
+		
+	}
+	
+	
 }
 
 
