@@ -1,2 +1,3 @@
 # Finger-Counting
-# OpenCV YoLo Tiny h5
+
+run di fingercounting outseal
