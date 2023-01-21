@@ -23,7 +23,7 @@ Window {
 	
 	
 	Timer{
-		id:tmgauge
+		id:guitimer
 		interval: 200
 		repeat: true
 		running: true
