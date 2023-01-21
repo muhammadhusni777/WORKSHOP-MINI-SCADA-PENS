@@ -1,3 +1,3 @@
 # Finger-Counting
 
-run di fingercounting outseal
+run di finger count outseal
