@@ -130,7 +130,9 @@ class table(QObject):
     def slider(self, message):
         global slider
         slider = message
-        
+
+
+#---------------------------------#####################PYTHON KE QML###################
     @pyqtSlot(result=str)
     def get_holding_register(self):  return holding_register
     
@@ -167,11 +169,18 @@ def modbus_data_process(num):
         
         
         try:
+            #Baca Potensiometer
             analog = request.registers[1]
-            client.write_register(0, slider*10 ,unit=int(slave_id))
-            print(request.registers)
             
-            #print(request_coil.bits[8], request_coil.bits[9], request_coil.bits[10], request_coil.bits[11])
+            #Kirim nilai PWM (0-1000)
+            client.write_register(0, slider*10 ,unit=int(slave_id))
+            
+            #untuk menampilkan holding register
+            #print(request.registers)
+            
+            
+            
+            #membaca nilai dari button outseal
             if (request_coil.bits[8] == 0):
                 indicator1_status = "off"
             else:
@@ -195,6 +204,7 @@ def modbus_data_process(num):
         except AttributeError:
             pass
         
+        #mengirim nilai led yang akan menyala
         if (button1_status == 1):
             client.write_coil(128, True, unit=int(slave_id))
         else:
