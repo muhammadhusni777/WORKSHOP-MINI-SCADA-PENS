@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T06:32:40.071Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="VejuxN4XHYfFgY0UVhtJ" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-21T06:38:38.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="cYnCPet-TLimTpMibqhO" version="21.1.7" type="github">
   <diagram name="Page-1" id="lVUlWz7LJa00bjVZGHgd">
     <mxGraphModel dx="1257" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -25,73 +25,73 @@
         <mxCell id="QY4sg_2AmRACwEPoSQQL-5" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ladder Diagram&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="610" y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-6" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="80" width="70" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-7" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-7" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="393.75" y="90" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-8" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-8" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Start&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="685" y="90" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-9" value="Load PyQt5 Engine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-9" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Load PyQt5 Engine&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="378.75" y="240" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-10" value="Load window display" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="150" width="90" height="50" as="geometry" />
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-10" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Load window display&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="150" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-11" value="modbus data process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-11" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;modbus data process&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="377.5" y="424" width="112.5" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-13" value="declare modbus port, baudrate, slave id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="150" width="110" height="60" as="geometry" />
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;declare modbus port, baudrate, slave id&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="145" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-15" value="PyQtSlot" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-15" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;PyQtSlot&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="327" width="110" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-17" value="Button 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="105" y="267" width="85" height="40" as="geometry" />
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-17" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Button 1&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="267" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-18" value="Button 2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="105" y="327" width="80" height="40" as="geometry" />
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-18" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Button 2&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="327" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-19" value="Button 3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="105" y="387" width="80" height="40" as="geometry" />
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Button 3&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="387" width="95" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-20" value="Button 4" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="105" y="447" width="85" height="40" as="geometry" />
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-20" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Button 4&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="447" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-21" value="indicator1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="102.5" y="507" width="85" height="40" as="geometry" />
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;indicator1&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="507" width="107.5" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-22" value="indicator2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="567" width="85" height="40" as="geometry" />
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-22" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;indicator2&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="567" width="105" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-23" value="indicator3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="105" y="627" width="85" height="40" as="geometry" />
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-23" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;indicator3&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="627" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-24" value="indicator4" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="105" y="687" width="85" height="40" as="geometry" />
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-24" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;indicator4&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="687" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-25" value="slider" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-25" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;slider&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="747" width="85" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-26" value="gauge" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-26" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;gauge&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="102.5" y="807" width="85" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-27" value="chart" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-27" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;chart&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="102.5" y="867" width="85" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-28" value="led 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-28" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;led 1&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="667.5" y="160" width="85" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-29" value="led 2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-29" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;led 2&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="667.5" y="220" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-30" value="led 3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-30" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;led 3&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="667.5" y="280" width="80" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-31" value="led 4" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-31" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;led 4&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="667.5" y="350" width="85" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QY4sg_2AmRACwEPoSQQL-32" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
@@ -142,23 +142,23 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-39" value="led 5" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-39" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;led 5&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="667.5" y="410" width="85" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-40" value="Button1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-40" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Button1&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="667.5" y="480" width="85" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-41" value="Button2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-41" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Button2&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="667.5" y="540" width="85" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-42" value="Button3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-42" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Button3&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="662.5" y="600" width="85" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-43" value="Button4" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-43" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Button4&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="665" y="660" width="85" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-44" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Potensiometer&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="647.5" y="727" width="120" height="53" as="geometry" />
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-44" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Potensiometer&lt;/font&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="633.75" y="727" width="152.5" height="53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
