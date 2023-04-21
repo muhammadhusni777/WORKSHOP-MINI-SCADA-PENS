@@ -1,65 +1,122 @@
-<mxfile host="app.diagrams.net" modified="2023-04-21T06:14:02.161Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="_G4JB3RaZchzMY_gHnrB" version="21.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-21T06:21:22.182Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="iPjkn4ZF4WhaXNjtehTf" version="21.1.7" type="github">
   <diagram name="Page-1" id="lVUlWz7LJa00bjVZGHgd">
-    <mxGraphModel dx="1257" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1035" dy="569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=6;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="190" y="610" as="sourcePoint" />
-            <mxPoint x="190" y="80" as="targetPoint" />
+            <mxPoint x="280" y="990" as="sourcePoint" />
+            <mxPoint x="280" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=6;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="500" y="612.8571428571429" as="sourcePoint" />
-            <mxPoint x="500" y="80" as="targetPoint" />
+            <mxPoint x="590" y="980" as="sourcePoint" />
+            <mxPoint x="590" y="80" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QY4sg_2AmRACwEPoSQQL-3" value="QML Code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="10" y="40" width="60" height="30" as="geometry" />
+          <mxGeometry x="100" y="40" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QY4sg_2AmRACwEPoSQQL-4" value="Python Code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="310" y="40" width="80" height="30" as="geometry" />
+          <mxGeometry x="400" y="40" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QY4sg_2AmRACwEPoSQQL-5" value="Ladder Diagram" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="540" y="40" width="90" height="30" as="geometry" />
+          <mxGeometry x="630" y="40" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QY4sg_2AmRACwEPoSQQL-6" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="90" width="50" height="40" as="geometry" />
+          <mxGeometry x="120" y="90" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QY4sg_2AmRACwEPoSQQL-7" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="325" y="90" width="50" height="40" as="geometry" />
+          <mxGeometry x="415" y="90" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QY4sg_2AmRACwEPoSQQL-8" value="Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="90" width="50" height="40" as="geometry" />
+          <mxGeometry x="670" y="90" width="50" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QY4sg_2AmRACwEPoSQQL-9" value="Load PyQt5 Engine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="220" width="90" height="50" as="geometry" />
+          <mxGeometry x="400" y="220" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QY4sg_2AmRACwEPoSQQL-10" value="Load window display" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="150" width="90" height="50" as="geometry" />
+          <mxGeometry x="100" y="150" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="QY4sg_2AmRACwEPoSQQL-11" value="start modbus data process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="307.5" y="380" width="90" height="50" as="geometry" />
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-11" value="modbus data process" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="397.5" y="397" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QY4sg_2AmRACwEPoSQQL-13" value="declare modbus port, baudrate, slave id" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="150" width="90" height="50" as="geometry" />
+          <mxGeometry x="400" y="150" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="QY4sg_2AmRACwEPoSQQL-15" value="PyQtSlot" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="307.5" y="310" width="85" height="40" as="geometry" />
+          <mxGeometry x="402.5" y="310" width="85" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QY4sg_2AmRACwEPoSQQL-17" value="Button 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="15" y="230" width="85" height="40" as="geometry" />
+          <mxGeometry x="105" y="267" width="85" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QY4sg_2AmRACwEPoSQQL-18" value="Button 2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="310" width="80" height="40" as="geometry" />
+          <mxGeometry x="105" y="327" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QY4sg_2AmRACwEPoSQQL-19" value="Button 3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="400" width="80" height="40" as="geometry" />
+          <mxGeometry x="105" y="387" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="QY4sg_2AmRACwEPoSQQL-20" value="Button 4" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="15" y="480" width="85" height="40" as="geometry" />
+          <mxGeometry x="105" y="447" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-21" value="indicator1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="507" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-22" value="indicator2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="567" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-23" value="indicator3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="627" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-24" value="indicator4" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="105" y="687" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-25" value="slider" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="747" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-26" value="gauge" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="807" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-27" value="chart" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="102.5" y="867" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-28" value="led 1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="160" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-29" value="led 2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="220" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-30" value="led 3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-31" value="led 4" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="652.5" y="350" width="85" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-32" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="242" as="sourcePoint" />
+            <mxPoint x="230" y="242" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-33" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="940" as="sourcePoint" />
+            <mxPoint x="60" y="239.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-34" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="55" y="940" as="sourcePoint" />
+            <mxPoint x="230" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QY4sg_2AmRACwEPoSQQL-35" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="228" y="941" as="sourcePoint" />
+            <mxPoint x="228" y="240.41" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
